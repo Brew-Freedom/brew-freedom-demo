@@ -1,4 +1,4 @@
----![Training Compliance Checker Interface](assets/screenshots/training-compliance-ui.png)
+---Training Compliance Checker Interface](assets/screenshots/training-compliance-ui.png)
 
 ##  Interactive Data Intake Interface
 
