@@ -34,5 +34,5 @@ Review licenses or replace affected data before production deployment.
 ## Data Module Demo
 This project includes a **Training Compliance Checker** demonstrating how structured compliance data can be validated and surfaced automatically.
 
-➡️ **View the full technical documentation in the README**  
-➡️ **See `/demo/demo_walkthrough.md` for a guided demo**
+ **View the full technical documentation in the README**  
+**See `/demo/demo_walkthrough.md` for a guided demo**
