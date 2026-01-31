@@ -1,23 +1,21 @@
----[Training Compliance Checker Interface](assets/screenshots/training-compliance-ui.png)
+# Brew-Freedom
 
-##  Interactive Data Intake Interface
+Training data compliance utilities for AI workflows.
 
-This project includes a lightweight web interface that enables users to upload structured CSV files for compliance validation.
+## Overview
+This repository demonstrates how structured data can be validated to identify licensing, completeness, and compliance gaps before model deployment.
 
-The interface serves as a **data ingestion layer**, enforcing schema requirements before any analysis is performed.
+## What’s included
+- Dataset and source tracking
+- Rule-based compliance checks
+- Early identification of deployment risks
+- Actionable remediation signals
 
-### Interface Capabilities
-- Drag-and-drop CSV upload
-- Schema validation against required fields
-- Immediate feedback on data readiness
-- Deterministic processing (no black-box inference)
+## Example finding
+Partial licensing coverage detected in a public web crawl dataset (2021–2023).
+Approximately 18% of records have unclear commercial usage rights.
 
-### Required CSV Columns
-- `Employee Name`
-- `Unit`
-- `Training Name`
-- `Completion Status`
+Recommended action: review licenses or replace affected data prior to deployment.
 
-By validating structure at upload time, the system prevents incomplete or malformed data from entering the compliance pipeline.
-
-> This interface mirrors how AI training datasets can be gated for compliance before model development or deployment.
+## Demo
+Includes a Training Compliance Checker that validates structured CSV inputs and flags non-compliant records.
